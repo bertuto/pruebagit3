@@ -1,0 +1,40 @@
+body{
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas: 
+  "my-header"
+  "my-main"
+  "my-footer"
+  ;
+}
+header{
+  grid-area: my-header;
+}
+main{
+  grid-area: my-main;
+}
+footer{
+  grid-area:my-footer;
+  
+    height:50px;
+    line-height:50px;
+    background:black;
+    color:white;
+    text-align:center;
+    margin-top: auto;
+    bottom:0;
+    left:0;
+    width:100%;
+      
+}
+.peque{
+  width: 20px;
+  height: 20px;
+  } 
+  .carousel-item img{
+    width: 500px;
+    height: 500px;
+  }
